@@ -2,14 +2,17 @@
 
 Configuração GIT
 
-git config --global user.name "Weverton Castro"
-git config --global user.email "wvcastro42@gmail.com"
-git config --global core.editor "atom"
+- git config --global user.name "Weverton Castro"
+- git config --global user.email "wvcastro42@gmail.com"
+- git config --global core.editor "atom"
 
 para consultar: 
-	git config x.y (user.name / core.editor)	ou
-	git config --list   para exibir tudo
+	- git config x.y (user.name / core.editor)	ou
+	- git config --list   para exibir tudo
 	
+- git status: ver como o repositório está
+
+- git add arquivo.ext: adiciona o arquivo (leva de untracked para unstage)
 
 
 
