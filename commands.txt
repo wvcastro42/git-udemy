@@ -1,0 +1,30 @@
+############## GIT - GITHUB ############
+
+Configuração GIT
+
+git config --global user.name "Weverton Castro"
+git config --global user.email "wvcastro42@gmail.com"
+git config --global core.editor "atom"
+
+para consultar: 
+	git config x.y (user.name / core.editor)	ou
+	git config --list   para exibir tudo
+	
+
+
+
+
+
+
+
+
+
+
+
+################# VI / VI #############
+
+i: modo de inserção de texot
+esc: espera um comando
+w: gravar
+q: sair
+
