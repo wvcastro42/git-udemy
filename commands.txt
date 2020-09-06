@@ -12,11 +12,39 @@ para consultar:
 	
 - git status: ver como o repositório está
 
-- git add arquivo.ext: adiciona o arquivo (leva de untracked para unstage)
+- git add arquivo.ext: adiciona o arquivo (leva de untracked para unmodified)
+
+- git commit -m "Mensagem do commit" (leva de unstage para staged)
+
+- git log
+	commit d4fca86887d37cd8eff0700aed75fa936a990501 (HEAD -> master)
+	Author: Weverton Castro <wvcastro42@gmail.com>
+	Date:   Wed Sep 2 17:33:37 2020 -0300
+	second commit - commands atualization
+
+- git diff : mostra alterações do arquivo antes de mandar pro staged - git add)
+	git diff
+	diff --git a/readme.md b/readme.md
+	index 68ff6da..97b7a6a 100644
+	--- a/readme.md
+	+++ b/readme.md
+	@@ -2,3 +2,5 @@
+ 	Arquivo da aula de Git/Github para iniciantes
+ 
+ 	Adicionando mais coisas para teste!
+	+
+	+Nova mensagem teste!
+	
+- git checkout arquivo.txt  :> desfaz as alterações do arquivo e volta para o estado anterior, antes do git add
+ 
+- git reset HEAD arquivo.txt   :> tira o arquivo do staged (pós git add) desfaz alterações o colocando como modified 
 
 
 
 
+ESTADOS DO ARQUIVO:
+- Untracked: novo arquivo
+- Staged: pronto para commitar (git add leva para o staged)
 
 
 
