@@ -39,6 +39,11 @@ para consultar:
  
 - git reset HEAD arquivo.txt   :> tira o arquivo do staged (pós git add) desfaz alterações o colocando como modified 
 
+	reset --soft (volta para staged) pronto para ser commitado novamente
+	reset --mixed (mata o commit e volta os arquivos para modified)
+	reset --hard (mata tudo do commit)
+
+	reset --X +hashdocommit
 
 
 
