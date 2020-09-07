@@ -45,7 +45,19 @@ para consultar:
 
 	reset --X +hashdocommit
 
+- git clone git@github.com:wvcastro42/git-udemy.git nomedapastaclone
 
+- git checkout -b novedobranch :>> cria novo branch 
+
+- git checkout nomedobranch :>> para mudar de branch
+
+- git branch -D nomedobranch :>> deletar branch
+
+- git merge branch  :>> adicona a branch desejada no master mantendo um histórico linear (os commits ficam na ordem certa mas há ramificações)
+
+- git rebase nomedabranch :>> adiciona a branch desejada no master mantendo a estrutura dos commits (não há ramificaçãoes mas perde o histórico por jogar o commit da branch por último)
+
+ 
 
 ESTADOS DO ARQUIVO:
 - Untracked: novo arquivo
