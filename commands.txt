@@ -55,7 +55,18 @@ para consultar:
 
 - git merge branch  :>> adicona a branch desejada no master mantendo um histórico linear (os commits ficam na ordem certa mas há ramificações)
 
-- git rebase nomedabranch :>> adiciona a branch desejada no master mantendo a estrutura dos commits (não há ramificaçãoes mas perde o histórico por jogar o commit da branch por último)
+- git rebase nomedabranch :>> adiciona a branch desejada no master mantendo a estrutura dos commits (não há ramificaçãoes mas perde o histórico por jogar o commit da branch por último e sem identificação - não sabendo que veio de outra branch)
+
+- git stash:
+	- git stash (salva estado de arquivos para voltar a mexer depois)
+	- git stash apply - aplica as mudanças salvas
+	- git stash list - lista estados gravados
+	- git stash clear - limpa tudo
+
+- git config --global alias.s status :>> cria alias/atalho para o comando status (s)
+
+
+
 
  
 
